@@ -1,0 +1,60 @@
+:root {
+    /* Primary Colors */
+    --primary-50: #eefff7;
+    --primary-100: #d6ffee;
+    --primary-200: #b0ffdf;
+    --primary-300: #73ffc6;
+    --primary-400: #2ff9a6;
+    --primary-500: #04d982;
+    --primary-600: #00bd6d;
+    --primary-700: #019459;
+    --primary-800: #087349;
+    --primary-900: #085f3e;
+    --primary-950: #003621;
+
+    /* Secondary Colors */
+    --secondary-50: #e8f3ff;
+    --secondary-100: #d5e8ff;
+    --secondary-200: #b4d3ff;
+    --secondary-300: #88b4ff;
+    --secondary-400: #5986ff;
+    --secondary-500: #3359ff;
+    --secondary-600: #1028ff;
+    --secondary-700: #071dfb;
+    --secondary-800: #091cca;
+    --secondary-900: #12249d;
+    --secondary-950: #040722;
+
+    /* Accent Colors */
+    --accent-50: #eefff7;
+    --accent-100: #d6ffee;
+    --accent-200: #b0ffdf;
+    --accent-300: #73ffc6;
+    --accent-400: #2ff9a6;
+    --accent-500: #04d982;
+    --accent-600: #00bd6d;
+    --accent-700: #019459;
+    --accent-800: #087349;
+    --accent-900: #085f3e;
+    --accent-950: #003621;
+
+    /* Util Colors */
+    --util-50: #f3f1ed;
+    --util-100: #f2f0eb;
+    --util-200: #f0eee9;
+    --util-300: #c0beba;
+    --util-400: #a8a7a3;
+    --util-500: #908f8c;
+    --util-600: #545251;
+    --util-700: #262423;
+    --util-800: #181817;
+    --util-900: #171716;
+    --util-950: #100f0f;
+    --util-1000: #0c0b0b;
+
+    /* Emotion Colors */
+    --success: #b5fc95;
+    --danger: #ff9090; /* used the value of $primary-200 */
+    --warning: #ffe8a4;
+    --information: #abccfc;
+}

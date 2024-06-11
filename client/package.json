@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@radix-icons/vue": "^1.0.0",
+    "@vueuse/core": "^10.10.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.394.0",
+    "nuxt": "^3.11.2",
+    "nuxt-svgo": "^4.0.1",
+    "radix-vue": "^1.8.3",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul-vue": "^0.1.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@modernice/nuxt-i18n-modules": "^0.1.12",
+    "@modernice/vue-i18n-modules": "^0.2.0",
+    "@nuxt/content": "^2.12.1",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt-mail": "^5.0.1",
+    "postcss": "^8.4.38",
+    "typescript": "^5.4.5",
+    "vue-i18n-routing": "^1.2.0"
+  }
+}

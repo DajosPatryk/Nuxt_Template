@@ -1,0 +1,120 @@
+@import "colors.css";
+@import "./fonts/sfUiText/sfUiText.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: var(--util-950);
+        --foreground: var(--util-50);
+
+        --header-background: #0c0b0bAF;
+
+        --muted: var(--util-50);
+        --muted-foreground: var(--util-300);
+
+        --popover: var(--primary-500);
+        --popover-foreground: var(--secondary-950);
+
+        --border: var(--util-900);
+        --input: var(--util-900);
+
+        --card: var(--primary-200);
+        --card-foreground: var(--primary-500);
+
+        --primary: var(--primary-400);
+        --primary-foreground: var(--secondary-950);
+
+        --secondary: var(--secondary-950);
+        --secondary-foreground: var(--accent-400);
+
+        --accent: var(--accent-400);
+        --accent-foreground: var(--secondary-950);
+
+        --danger-foreground: var(--util-50);
+        --success-foreground: var(--util-50);
+        --warning-foreground: var(--util-50);
+        --information-foreground: var(--util-50);
+
+        --ring: var(--primary-300);
+
+        --radius: .5rem;
+    }
+
+    .dark {
+        --background: var(--util-900);
+        --foreground: var(--util-50);
+
+        --header-background: #0c0b0bAF;
+
+        --muted: var(--util-700);
+        --muted-foreground: var(--util-100);
+
+        --accent: var(--primary-500);
+        --accent-foreground: var(--util-50);
+
+        --popover: var(--util-900);
+        --popover-foreground: var(--primary-50);
+
+        --border: var(--util-900);
+        --input: var(--primary-500);
+
+        --card: var(--util-900);
+        --card-foreground: var(--primary-50);
+
+        --primary: var(--primary-500);
+        --primary-foreground: var(--primary-50);
+
+        --secondary: var(--secondary-950);
+        --secondary-foreground: var(--secondary-50);
+
+        --destructive: var(--secondary-950);
+        --destructive-foreground: var(--secondary-50);
+
+        --ring: var(--primary-400);
+
+        --radius: .5rem;
+    }
+
+    * {
+        @apply border-border;
+    }
+
+    & body {
+        @apply w-screen overflow-x-hidden bg-background text-foreground font-sanfran antialiased;
+    }
+
+    & h1 {
+        @apply text-3xl font-semibold md:text-5xl my-2 md:my-4;
+    }
+
+    & h2,
+    & h3 {
+        @apply text-xl font-semibold md:text-3xl my-1 md:my-2;
+    }
+
+    & h4 {
+        @apply text-lg font-semibold;
+    }
+
+    & h5 {
+        @apply text-lg;
+    }
+
+    & li {
+        @apply my-4 ml-12 list-disc;
+    }
+
+    & .page-pos {
+        @apply mx-auto px-6 md:max-w-6xl;
+    }
+
+    & .section {
+        @apply my-16 xl:my-24;
+    }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

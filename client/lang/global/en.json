@@ -1,0 +1,15 @@
+{
+  "$company": {
+    "name": "Avalonia"
+  },
+  "$navigation": {
+    "socials": "Socials",
+    "about": "About",
+    "company": "Company",
+    "portfolio": "Portfolio",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "copyright": "© Copyrighted by Avalonia | All rights reserved."
+  }
+}
+
